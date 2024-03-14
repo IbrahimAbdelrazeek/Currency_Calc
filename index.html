@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <input type="number" id="amount" placeholder="Amount" min="0" required >
+        <select id="sourceCurrency">
+            <option value="EGP">Egyptian Pound (EGP)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="USD">US Dollar (USD)</option>
+            <option value="JPY">Japanese Yen (JPY)</option>
+            <option value="SAR">Saudi Riyal (SAR)</option>
+            <option value="AED">Emirati Dirham (AED)</option>
+            <option value="QAR">Qatari Riyal (QAR)</option>
+        </select>
+        <select id="targetCurrency">
+            <option value="EGP">Egyptian Pound (EGP)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="USD">US Dollar (USD)</option>
+            <option value="JPY">Japanese Yen (JPY)</option>
+            <option value="SAR">Saudi Riyal (SAR)</option>
+            <option value="AED">Emirati Dirham (AED)</option>
+            <option value="QAR">Qatari Riyal (QAR)</option>
+        </select>
+        <button onclick="convert()">Convert</button>
+        <p id="result"></p>
+    </div>
+
+    
+</body>
+</html>
